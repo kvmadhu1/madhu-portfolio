@@ -1,5 +1,6 @@
 import styles from './Header.module.css'
 import logo from '../assets/Madhu-linkedin-Photo.jpg'
+import ResumeDownload from './ResumeDownload'
 function Header() {
     return (
             <header className={styles.header}>
@@ -18,6 +19,7 @@ function Header() {
                         {/* <li><a href='#contact'>Contact</a></li> */}
                     </ul>
                 </nav>
+                <ResumeDownload />
             </header>
     )
 }
