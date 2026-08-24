@@ -1,0 +1,39 @@
+.about {
+  padding: 6rem 2rem;
+  background-color: #d8edfb;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #282c34;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.readMoreBtn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.readMoreBtn:hover {
+  background-color: #21a1f1;
+}
